@@ -1,0 +1,84 @@
+{
+  "optionalFeatures": {
+    "acceptableApplicationBundleIDs": [
+      "us.zoom.xos"
+    ],
+    "aggressiveUserExperience": true,
+    "asyncronousSoftwareUpdate": true,
+    "attemptToFetchMajorUpgrade": false,
+    "enforceMinorUpdates": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT211896#macos1121",
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1121"
+        },
+        {
+          "_language": "es",
+          "aboutUpdateURL": "https://support.apple.com/es-es/HT211896"
+        },
+        {
+          "_language": "fr",
+          "aboutUpdateURL": "https://support.apple.com/fr-fr/HT211896"
+        },
+        {
+          "_language": "de",
+          "aboutUpdateURL": "https://support.apple.com/de-de/HT211896"
+        }
+      ],
+      "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
+      "requiredInstallationDate": "2021-08-28T00:00:00Z",
+      "requiredMinimumOSVersion": "11.6",
+      "targetedOSVersionsRule": "default"
+    }
+  ],
+  "userExperience": {
+    "allowUserQuitDeferrals": true,
+    "allowedDeferrals": 1000000,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 300,
+    "imminentRefreshCycle": 600,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 18000,
+    "maxRandomDelayInSeconds": 1200,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": false
+  },
+  "userInterface": {
+    "actionButtonPath": "munki://updates",
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "iconDarkPath": "/somewhere/logoDark.png",
+    "iconLightPath": "/somewhere/logoLight.png",
+    "screenShotDarkPath": "/somewhere/screenShotDark.png",
+    "screenShotLightPath": "/somewhere/screenShotLight.png",
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": false,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Update Device",
+        "customDeferralButtonText": "Custom",
+        "informationButtonText": "More Info",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "Important Notes",
+        "mainContentSubHeader": "Updates can take around 30 minutes to complete",
+        "mainContentText": "A fully up-to-date device is required to ensure that IT can accurately protect your device.\n\nTo begin the update, simply click on the Update Device button and follow the provided steps.",
+        "mainHeader": "Your device requires a security update",
+        "oneDayDeferralButtonText": "One Day",
+        "oneHourDeferralButtonText": "One Hour",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A friendly reminder from your local IT team"
+      },
+    ]
+  }
+}
